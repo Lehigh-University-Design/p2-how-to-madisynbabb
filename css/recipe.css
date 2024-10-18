@@ -3,15 +3,28 @@
     --light-color: #ffffff;
     --dark-color: #000000;
 
-    /* unvisited link */
-a:link {
-    color: black;
+    a {
+    color: white;
     text-decoration: none;
   }
-  
-  /* visited link */
-  a:visited {
-    color: white;
+
+  .firstlink {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .firstlink:hover {
+    color: #C6BCDF;
+    text-decoration: none;
+  }
+
+  .secondlink {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .secondlink:hover {
+    color: #ffffff;
     text-decoration: none;
   }
 }
@@ -103,11 +116,11 @@ p3 {
 .bottomnav {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;;
     background-color: #E4CBBA;
     width: 100%;
-    bottom: 0;
-    position: fixed;
+    position: relative;
+    justify-items: end;
 }
 
 #logo {
@@ -122,7 +135,7 @@ p3 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20em;
-    margin-bottom: 60em;
+    margin-bottom: 30em;
     margin-left: 13em;
     margin-right: 13em;
 }

@@ -2,22 +2,9 @@
     --background-color: white;
     --light-color: #ffffff;
     --dark-color: #000000;
-
-    /* unvisited link */
-a:link {
-    color: black;
-    text-decoration: none;
-  }
   
-  /* visited link */
-  a:visited {
+  a {
     color: white;
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #C6BCDF;
     text-decoration: none;
   }
 }
@@ -28,14 +15,8 @@ body {
     background-color: var(--background-color);
     margin: 0;
     font-size: 16px;
-    min-height: 100vh;
-    display: flex;
-    flex-flow: column;
 }
   
-  main:hover {
-    padding-bottom: 100%;
-}
 
 h1 {
     font-family: "lily script one", sans-serif;
@@ -85,7 +66,6 @@ p {
     justify-content: space-between;;
     background-color: #E4CBBA;
     width: 100%;
-    bottom: 0;
     position: relative;
     justify-items: end;
 }
@@ -107,7 +87,7 @@ p {
     margin-bottom: 20em;
 }
 
-.oreolanding {
+.landing {
     max-width: 100%;
     height: 100%;
     object-fit: cover;
@@ -122,4 +102,5 @@ p {
     display: flex;
     flex-direction: row;
     align-content: flex-start;
+    margin-bottom: 20em;
 }
